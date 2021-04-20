@@ -5,8 +5,7 @@ def number_compare(a, b):
         'Numbers are equal'
         
         >>> number_compare(-1, 1)
-        'Second is greater'
-        
+        'Second is greater'       
         >>> number_compare(1, -2)
         'First is greater'
     """
@@ -16,4 +15,3 @@ def number_compare(a, b):
         return 'First is greater'
     if a < b:
         return 'Second is greater'
-        
