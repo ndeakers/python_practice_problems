@@ -23,6 +23,4 @@ def weekday_name(day_of_week):
         ]
     if day_of_week < 8 and day_of_week > 0:
         return days[day_of_week - 1]
-    else:
-        return None
         

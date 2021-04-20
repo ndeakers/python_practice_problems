@@ -3,15 +3,15 @@ def number_compare(a, b):
     
         >>> number_compare(1, 1)
         'Numbers are equal'
-        
+
         >>> number_compare(-1, 1)
-        'Second is greater'       
+        'Second is greater'
         >>> number_compare(1, -2)
         'First is greater'
     """
     if a == b:
         return 'Numbers are equal'
-    if a > b:
+    elif a > b:
         return 'First is greater'
-    if a < b:
+    elif a < b:
         return 'Second is greater'

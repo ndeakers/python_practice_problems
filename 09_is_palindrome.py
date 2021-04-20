@@ -25,7 +25,6 @@ def is_palindrome(phrase):
     phraseList = list(phrase)
     phraseList.reverse()
     reversed = ''.join(phraseList)
-    if reversed.lower() == phrase.lower():
-        return True
-    return False
+    return reversed.lower() == phrase.lower()
+
 
