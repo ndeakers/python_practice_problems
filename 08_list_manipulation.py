@@ -75,7 +75,7 @@ def list_manipulation(lst, command, location, value=None):
                 return lst.pop(-1)
                 # return lst
     else:
-        return None            
+        return None #not really needed           
         
 
 
